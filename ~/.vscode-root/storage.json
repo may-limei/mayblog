@@ -15,6 +15,11 @@
             "label": "Ctrl+Shift+T",
             "isNative": true
         },
+        "workbench.action.openRecent": {
+            "id": "workbench.action.openRecent",
+            "label": "Ctrl+R",
+            "isNative": true
+        },
         "workbench.action.files.save": {
             "id": "workbench.action.files.save",
             "label": "Ctrl+S",
@@ -52,7 +57,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -432,7 +437,6 @@
     "pickerWorkingDir": "/home/may/pro",
     "openedPathsList": {
         "workspaces": [
-            "/home/may/pro/mayblog",
             "/home/may/pro/mayblog"
         ],
         "files": []
