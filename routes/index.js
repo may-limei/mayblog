@@ -11,9 +11,9 @@ router.get('/index.html', function(req, res, next) {
   res.render('index', { title: '首页' });
 });
 
-/* GET generic page. */
-router.get('/generic.html', function(req, res, next) {
-  res.render('generic.html', { title: 'generic' });
+/* GET about page. */
+router.get('/about.html', function(req, res, next) {
+  res.render('about.html', { title: '本站历史' });
 });
 
 module.exports = router;
