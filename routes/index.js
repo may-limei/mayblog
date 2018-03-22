@@ -16,4 +16,9 @@ router.get('/about.html', function(req, res, next) {
   res.render('about.html', { title: '本站历史' });
 });
 
+/* GET creatExpress page. */
+router.get('/creatExpress.html', function(req, res, next) {
+  res.render('creatExpress.html', { title: '创建express应用' });
+});
+
 module.exports = router;
