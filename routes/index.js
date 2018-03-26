@@ -21,4 +21,8 @@ router.get('/creatExpress.html', function(req, res, next) {
   res.render('creatExpress.html', { title: '创建express应用' });
 });
 
+/* GET proverbs page. */
+router.get('/proverbs.html', function(req, res, next) {
+  res.render('proverbs.html', { title: '每日一碗鸡汤' });
+});
 module.exports = router;

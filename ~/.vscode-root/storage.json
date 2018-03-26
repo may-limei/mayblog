@@ -437,7 +437,10 @@
     "pickerWorkingDir": "/home/may/pro",
     "openedPathsList": {
         "workspaces": [
-            "/home/may/pro/mayblog"
+            "/home/may/pro/webRMS",
+            "/home/may/pro/webRMS",
+            "/home/may/pro/mayblog",
+            "/home/may"
         ],
         "files": [
             "/home/may/pro/mayblog/bin/www"
@@ -447,8 +450,8 @@
         "openedWindows": [],
         "openedFolders": [],
         "lastActiveWindow": {
-            "folderPath": "/home/may",
-            "backupPath": "/home/may/pro/mayblog/~/.vscode-root/Backups/11a08e3d54389bb6eba8f69346ede5ad",
+            "folderPath": "/home/may/pro/webRMS",
+            "backupPath": "/home/may/pro/mayblog/~/.vscode-root/Backups/bb18d9f666302375af542337b4d2e062",
             "uiState": {
                 "mode": 0,
                 "x": 0,
