@@ -57,7 +57,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -449,8 +449,8 @@
         "openedWindows": [],
         "openedFolders": [],
         "lastActiveWindow": {
-            "folderPath": "/home/may/pro/webRMS",
-            "backupPath": "/home/may/pro/mayblog/~/.vscode-root/Backups/bb18d9f666302375af542337b4d2e062",
+            "folderPath": "/home/may/pro/mayblog",
+            "backupPath": "/home/may/pro/mayblog/~/.vscode-root/Backups/7963af49ef0e3f3ef32c765b748eee80",
             "uiState": {
                 "mode": 0,
                 "x": 0,
