@@ -3,26 +3,30 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '首页' });
+  res.render('index.html', { title: '首页' });
 });
 
-/* GET home page. */
-router.get('/index.html', function(req, res, next) {
-  res.render('index', { title: '首页' });
+router.get('/index', function(req, res, next) {
+  res.render('index.html', { title: '首页' });
 });
 
-/* GET about page. */
-router.get('/about.html', function(req, res, next) {
-  res.render('about.html', { title: '本站历史' });
+router.get('/history', function(req, res, next) {
+  res.render('history.html', { title: '本站历史' });
 });
 
-/* GET creatExpress page. */
-router.get('/creatExpress.html', function(req, res, next) {
-  res.render('creatExpress.html', { title: '创建express应用' });
+router.get('/history-express', function(req, res, next) {
+  res.render('history-express.html', { title: '创建express应用' });
 });
 
-/* GET proverbs page. */
-router.get('/proverbs.html', function(req, res, next) {
+router.get('/learning-linux', function(req, res, next) {
+  res.render('learning-linux.html', { title: 'Linux学习' });
+});
+
+router.get('/learning-linux-alias', function(req, res, next) {
+  res.render('learning-linux-alias.html', { title: 'Linux命令别名alias' });
+});
+
+router.get('/proverbs', function(req, res, next) {
   res.render('proverbs.html', { title: '每日一碗鸡汤' });
 });
 module.exports = router;
