@@ -2247,7 +2247,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
-		margin: 1em 0 1.5em 0;
+		margin: 1em 0 2em 0;
 	}
 
 		hr.major {
@@ -2963,7 +2963,7 @@
 		height: 3.5em;
 		letter-spacing: 0.075em;
 		line-height: 3.5em;
-		padding: 0 2.25em;
+		padding: 0 1em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -3009,7 +3009,7 @@
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.6em;
+			font-size: 0.7em;
 		}
 
 		input[type="submit"].big,
@@ -4071,4 +4071,36 @@
 .poverview{
 	text-indent: 2em;
 	margin: 0.5em 0 0.5em 0;
+}
+
+.floatTag{
+	float:left; 
+	padding:0; 
+	margin:0;
+}
+
+a.text {
+	display: inline-block;
+    color: #f56a6a;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+	border: 1px solid #f56a6a;
+	box-shadow: inset 0 0 0 1px #F56969;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+a.text:hover {
+	border-bottom-color: #f56a6a;
+	background-color:#f56a6a;
+	color: #fff !important;
 }
