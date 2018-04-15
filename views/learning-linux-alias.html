@@ -94,91 +94,6 @@
 
 				<!-- Sidebar -->
 					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2><a href="index">梅子博客</a></h2>
-									</header>
-									<ul>
-										<li><a href="index">首页</a></li>
-										<li>
-											<span class="opener active">爱学习</span>
-											<ul>
-												<li><a href="learning-linux" style="color: #f56a6a;">Linux</a></li>
-												<li><a href="#">git & github</a></li>
-												<li><a href="#">我的收藏</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener">慢生活</span>
-											<ul>
-												<li><a href="proverbs">鸡汤页</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener">本站历史</span>
-											<ul>
-												<li><a href="history">本站历史</a></li>
-												<li><a href="history-express">创建Express应用</a></li>
-											</ul>
-										</li>
-										<li><a href="#">留言板</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>近期更新</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="history-express" class="image"><img src="images/leaves.jpg" alt="" /></a>
-											<p>创建Express网站应用，这是梅子博客的基本框架。</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>关于may</h2>
-									</header>
-									<p style="text-indent:2em">乖、 宅、 傻、 呆的小丫头片子， 不骄不躁、不卑不亢的慢性子，没有宏图大志，但也有自己的小理想：做自己喜欢的事，爱自己喜欢的人，努力把生活过成自己想要的样子！感恩身边人，相信任何得到都是眷顾！</p>
-									<ul class="contact">
-										<li class="fa-qq">1525436143</li>
-										<li class="fa-github"><a href="https://github.com/may-limei">https://github.com/may-limei</a></li>
-										<li class="fa-external-link">【CSDN博客】：<br />
-											<a href="http://blog.csdn.net/u013894429">http://blog.csdn.net/u013894429</a></li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; 2017-2018, 梅子博客, All rights reserved.</p>
-								</footer>
-
-						</div>
 					</div>
 
 			</div>
@@ -189,6 +104,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			
+			<!-- 侧边栏的脚本 -->
+			<script src="assets/js/siderbar.js"></script>
+			<script>
+				document.getElementById("sp-learning").className="opener active";
+				document.getElementById("li-learning-linux-alias").style.color="#f56a6a";
+			</script>
 	</body>
 </html>
