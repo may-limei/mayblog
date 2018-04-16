@@ -29,4 +29,8 @@ router.get('/learning-linux-alias', function(req, res, next) {
 router.get('/proverbs', function(req, res, next) {
   res.render('proverbs.html', { title: '每日一碗鸡汤' });
 });
+
+router.get('/learning-softs', function(req, res, next) {
+  res.render('learning-softs.html', { title: '软件或工具收藏' });
+});
 module.exports = router;
