@@ -54,7 +54,7 @@ var siderbarStr;
 								+"</p>"
 							+"</article>"
 							+"<article>"
-								+"<a href='#' class='image'><img src='images/mayblog.jpg' alt='' /></a>"
+								+"<a href='index' class='image'><img src='/images/activities-images/mayblog.jpg' alt='' /></a>"
 								+"<p>首页更新了梅子的简历内容，添加了一些项目介绍、社团活动等信息。</p>"
 							+"</article>"
 							+"<article>"

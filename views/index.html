@@ -125,7 +125,7 @@
 											</ul>
 										</article>
 										<article>
-											<img id="img02" src="{{image02}}" width="128px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
+											<img id="img02" src="{{image02}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
 											<h3>Nulla amet dolore</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
@@ -133,7 +133,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<img id="img03" src="{{image03}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
 											<h3>Tempus ullamcorper</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
@@ -141,7 +141,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<img id="img04" src="/images/activities-images/0307.jpg" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
 											<h3>Sed etiam facilis</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
@@ -149,7 +149,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<img id="img05" src="/images/activities-images/dongzhi.jpg" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
 											<h3>Feugiat lorem aenean</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
@@ -157,7 +157,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<img id="img06" src="{{image06}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
 											<h3>Amet varius aliquam</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
@@ -193,26 +193,28 @@
 				showImages.controller('showImagesCtrl', function($scope) {
 					$scope.imgNum=0;
 					$scope.image02 = "/images/activities-images/0101.jpg";
+					$scope.image03 = "/images/activities-images/basketball-may.jpg";
+					$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 					setInterval(function(){
 						$scope.$apply(function(){
 							switch($scope.imgNum){
 								case 0: 
 									$scope.imgNum=1;
 									$scope.image02 = "/images/activities-images/0101.jpg";//0101.jpg
-									document.getElementById("img02").offsetWidth="240px";
+									$scope.image03 = "/images/activities-images/basketball-may.jpg";
+									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 									break;
 								case 1: 
-									$scope.imgNum=2;
-									$scope.image02 = "/images/activities-images/01010.jpg";//01010.jpg
-									break;
-								case 2:
-									$scope.imgNum=0; 
-									$scope.image02 = "/images/activities-images/01011.jpg";//01011.jpg
+									$scope.imgNum=0;
+									$scope.image02 = "/images/activities-images/01012.jpg";//01012.jpg
+									$scope.image03 = "/images/activities-images/basketball.jpg";
+									$scope.image06 = "/images/activities-images/jiayuan0.jpg";
 									break;
 								default:
 									$scope.imgNum=0;
 									$scope.image02 = "/images/activities-images/0101.jpg";
-									document.getElementById("img02").offsetWidth="240px";
+									$scope.image03 = "/images/activities-images/basketball-may.jpg";
+									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 							}
 						})
 					},2000);//2000ms
