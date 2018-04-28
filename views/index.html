@@ -187,7 +187,7 @@
 				showImages.controller('showImagesCtrl', function($scope) {
 					$scope.imgNum=0;
 					$scope.image02 = "/images/activities-images/0101.jpg";
-					$scope.image03 = "/images/activities-images/basketball-may.jpg";
+					$scope.image03 = "/images/activities-images/basketball.jpg";
 					$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 					setInterval(function(){
 						$scope.$apply(function(){
@@ -195,19 +195,19 @@
 								case 0: 
 									$scope.imgNum=1;
 									$scope.image02 = "/images/activities-images/0101.jpg";//0101.jpg
-									$scope.image03 = "/images/activities-images/basketball-may.jpg";
+									$scope.image03 = "/images/activities-images/basketball.jpg";
 									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 									break;
 								case 1: 
 									$scope.imgNum=0;
 									$scope.image02 = "/images/activities-images/01012.jpg";//01012.jpg
-									$scope.image03 = "/images/activities-images/basketball.jpg";
+									$scope.image03 = "/images/activities-images/basketball-may.jpg";
 									$scope.image06 = "/images/activities-images/jiayuan0.jpg";
 									break;
 								default:
 									$scope.imgNum=0;
 									$scope.image02 = "/images/activities-images/0101.jpg";
-									$scope.image03 = "/images/activities-images/basketball-may.jpg";
+									$scope.image03 = "/images/activities-images/basketball.jpg";
 									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
 							}
 						})
