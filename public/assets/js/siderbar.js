@@ -14,7 +14,7 @@ var siderbarStr;
 							+"<h2><a href='index'>梅子博客</a></h2>"
 						+"</header>"
 						+"<ul>"
-							+"<li><a href='index' id='li-index'>首页（简历）</a></li>"
+							+"<li><a href='index' id='li-index'>首页</a></li>"
 							+"<li>"
 								+"<span class='opener' id='sp-learning'>爱学习</span>"
 								+"<ul>"
