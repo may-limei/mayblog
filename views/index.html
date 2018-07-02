@@ -112,55 +112,21 @@
 										1. 主导研究生会宣传工作, 包括海报设计（Photoshop）、 条幅及标语设计、 宣传视频拍摄和后期处理（Adobe After Effects CC 和 绘声绘影）;<br>
 										2. 协助研会其他部举办新生晚会、元旦晚会、夜跑活动、篮球赛、女生节活动、嘉源论坛等系列活动;
 									</p>
-									<div class="posts" ng-app="showImages" ng-controller="showImagesCtrl">
-										<article style="position:relative;">
-											<label style="position:absolute; top:-2%; left:10%; font-size: 14px;color: #f56a6a;">2018元旦晚会中场祝福视频</label>
-											<video id="video0101" class="image" controls width="312px" height="201px" style="border-radius:10px; margin: 0 10% 2em 10%;">
+									<div class="row 12u" ng-app="showImages" ng-controller="showImagesCtrl">
+										<div class="5u 12u$(small)" style="padding-top:3%">
+											<label style="font-size: 14px;color: #f56a6a;">2018元旦晚会中场祝福视频</label>
+											<video id="video0101" class="image" controls width="100%" height="64%" style="border-radius:10px; margin:auto">
 												<source src="/images/activities-images/0101.mp4" type="video/mp4">
 													您的浏览器不支持 HTML5 Video 标签，无法播放视频
 											</video>
-											<h3>2018元旦晚会视频制作</h3>
-											<p style="margin: 1em 0 1em 0;">
-												导演和制作了本研究所内2018元旦晚会视频，包括2个暖长视频和1个中场祝福视频。
-												其中，拍摄工作与同学合作完成，用时一个月。视频后期处理为独立完成，用时两周。
-											</p>
-											<p style="margin: 1em 0 1em 0;">
-												视频处理主要软件：PhotoShop，Adobe After Effects CC，绘声绘影，FormatFactory.
-											</p>
-											<!--br-->
-											<!--ul class="actions" style="position:absolute; top:95%; left:3%"-->
-												<!--li><a href="#" class="button">More</a></li-->
-											<!--/ul-->
-										</article>
-										<article style="position:relative;">
-											<img id="img02" src="{{image02}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
-											<h3>元旦晚会（海报设计、节目表演）</h3>
-											<p>设计2018年元旦晚会海报。</p>
-											<p>客串小品和舞蹈 —— 新的尝试，挑战不一样的自己。</p>
-										</article>
-										<article style="position:relative;">
-											<img id="img03" src="{{image03}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
-											<h3>篮球赛</h3>
-											<p>篮球赛海报设计、赛程拍摄、视频处理。</p>
-										</article>
-										<article style="position:relative;">
-											<img id="img04" src="/images/activities-images/0307.jpg" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
-											<h3>女生节</h3>
-											<p>女生节海报设计、手工皂制作。</p>
-										</article>
-										<article style="position:relative;">
-											<img id="img05" src="/images/activities-images/dongzhi.jpg" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
-											<h3>冬至包饺子</h3>
-											<p>冬至包饺子活动海报设计。</p>
-										</article>
-										<article style="position:relative;">
-											<img id="img06" src="{{image06}}" width="284px" height="192px" style="border-radius:10px; margin: 0 10% 2em 10%;">
-											<h3>嘉源论坛</h3>
-											<p>嘉源论坛活动海报设计。</p>
-										</article>
+										</div>
+										<div class="1u 0u$(small)"><p></p></div>
+										<div class="5u 12u$(small)">
+											<label style="font-size: 14px;color: #f56a6a;">活动海报设计</label>												
+											<img id="img02" src="{{image02}}" width="100%" height="67%" style="border-radius:10px; margin:auto">
+										</div>
 									</div>
 								</section>
-
 						</div>
 					</div>
 
@@ -186,29 +152,37 @@
 				var showImages = angular.module('showImages', []);
 				showImages.controller('showImagesCtrl', function($scope) {
 					$scope.imgNum=0;
-					$scope.image02 = "/images/activities-images/0101.jpg";
-					$scope.image03 = "/images/activities-images/basketball.jpg";
-					$scope.image06 = "/images/activities-images/jiayuan1.jpg";
+					$scope.image02 = "/images/activities-images/01012.jpg";
 					setInterval(function(){
 						$scope.$apply(function(){
 							switch($scope.imgNum){
 								case 0: 
 									$scope.imgNum=1;
-									$scope.image02 = "/images/activities-images/0101.jpg";//0101.jpg
-									$scope.image03 = "/images/activities-images/basketball.jpg";
-									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
+									$scope.image02 = "/images/activities-images/01012.jpg";//01012.jpg
 									break;
 								case 1: 
+									$scope.imgNum=2;
+									$scope.image02 = "/images/activities-images/0307.jpg";//0307.jpg
+									break;
+								case 2: 
+									$scope.imgNum=3;
+									$scope.image02 = "/images/activities-images/basketball.jpg";//basketball.jpg
+									break;
+								case 3: 
+									$scope.imgNum=4;
+									$scope.image02 = "/images/activities-images/dongzhi.jpg";//dongzhi.jpg
+									break;
+								case 4: 
+									$scope.imgNum=5;
+									$scope.image02 = "/images/activities-images/jiayuan0.jpg";//jiayuan0.jpg
+									break;
+								case 5: 
 									$scope.imgNum=0;
-									$scope.image02 = "/images/activities-images/01012.jpg";//01012.jpg
-									$scope.image03 = "/images/activities-images/basketball-may.jpg";
-									$scope.image06 = "/images/activities-images/jiayuan0.jpg";
+									$scope.image02 = "/images/activities-images/jiayuan1.jpg";//dongzhi1.jpg
 									break;
 								default:
 									$scope.imgNum=0;
-									$scope.image02 = "/images/activities-images/0101.jpg";
-									$scope.image03 = "/images/activities-images/basketball.jpg";
-									$scope.image06 = "/images/activities-images/jiayuan1.jpg";
+									$scope.image02 = "/images/activities-images/01012jpg";
 							}
 						})
 					},2000);//2000ms
