@@ -33,4 +33,8 @@ router.get('/proverbs', function(req, res, next) {
 router.get('/learning-softs', function(req, res, next) {
   res.render('learning-softs.html', { title: '软件或工具收藏' });
 });
+
+router.get('/svg', function(req, res, next) {
+  res.render('svg.html', { title: 'svg' });
+});
 module.exports = router;

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>梅子博客 | <%= title %></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/svg.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<link rel="shortcut icon" type="image/x-icon" href="images/blog.png">
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index" class="logo"><strong>may</strong>  - 梅子博客</a>
+									<ul class="icons">
+										<li><a href="https://github.com/may-limei" class="icon fa-github"><span class="label">github</span></a></li>
+										<li><a href="http://blog.csdn.net/u013894429" class="icon fa-external-link"><span class="label">CSDN</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+							<section id="banner">
+								<div class="content row 12u" ng-app="propApp" ng-controller="propCtrl">
+									<div class="12u">
+										<div style="background-color:burlywood">
+											<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100" height="100" xmlns:xlink="http://www.w3.org/1999/xlink">
+												<circle cx="50" cy="50" r="40" style="stroke:black; fill:lightsalmon"></circle>
+											</svg>
+										</div>
+									</div>
+									<svg class="9u" id="svgContainer">
+										<text x="125" y="125" dy="0.5em" >28575173486{{pvName}}</text>
+										<circle cx="500" cy="500" r="{{pvValue}}" style="stroke:black; fill:lightsalmon"></circle>										
+									</svg>
+
+									<div class="3u" id="sideProperties">
+									</div>
+
+
+
+								</div>
+							</section>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/angular1.6.9.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+			<!-- 侧边栏的脚本 -->
+			<script src="assets/js/siderbar.js"></script>
+			<script src="assets/js/svg-properties.js"></script>			
+			<script>
+				document.getElementById("sp-svg").className="opener active";
+				document.getElementById("li-svg").style.color="#f56a6a";
+			</script>
+			<script>
+				var prop=angular.module('propApp', []);
+				prop.controller('propCtrl',function($scope){
+					$scope.pvName="pv0";
+					$scope.pvValue="测试控制圆半径功能";
+				});
+			</script>
+	</body>
+</html>
