@@ -1,0 +1,14 @@
+[2018-07-18 14:20:44.658] [renderer1] [info] no standard startup: not just one text editor
+[2018-07-18 14:20:58.127] [renderer1] [info] No grammar found for scope source.applescript
+[2018-07-18 14:20:58.599] [renderer1] [info] No grammar found for scope text.html.textile
+[2018-07-18 14:20:59.234] [renderer1] [info] No grammar found for scope source.c++
+[2018-07-18 14:20:59.318] [renderer1] [info] No grammar found for scope source.js.jquery
+[2018-07-18 14:20:59.413] [renderer1] [info] No grammar found for scope source.smarty
+[2018-07-18 14:21:00.381] [renderer1] [info] No grammar found for scope source.dosbatch
+[2018-07-18 14:21:01.537] [renderer1] [info] No grammar found for scope source.scala
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope source.dart
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope text.html.javadoc
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope source.postscript
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope source.sass
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope source.less
+[2018-07-18 14:21:01.658] [renderer1] [info] No grammar found for scope source.stylus

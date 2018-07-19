@@ -1,0 +1,24 @@
+[2018-07-18 14:21:01.139] [exthost1] [info] extension host started
+[2018-07-18 14:21:01.260] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-18 14:21:01.260] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/emmet/out/extension
+[2018-07-18 14:21:02.639] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-18 14:21:02.639] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/git/out/main
+[2018-07-18 14:21:03.295] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-18 14:21:03.295] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/merge-conflict/out/extension
+[2018-07-18 14:21:03.422] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-07-18 14:21:03.422] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/search-rg/out/extension
+[2018-07-18 14:21:03.509] [exthost1] [info] eager extensions activated
+[2018-07-18 14:21:03.518] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-18 14:21:03.519] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/configuration-editing/out/extension
+[2018-07-18 14:21:03.629] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-18 14:21:03.629] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/extension-editing/out/extension
+[2018-07-18 14:21:03.767] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-18 14:21:03.767] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/json-language-features/client/out/jsonMain
+[2018-07-18 14:21:07.352] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-07-18 14:21:07.352] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/npm/out/main
+[2018-07-18 14:21:07.755] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2018-07-18 14:21:07.755] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/typescript-language-features/out/extension
+[2018-07-18 14:21:34.284] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-07-18 14:21:34.284] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/html-language-features/client/out/htmlMain
+[2018-07-18 14:49:06.320] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-07-18 14:49:06.320] [exthost1] [info] ExtensionService#loadCommonJSModule /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/css-language-features/client/out/cssMain

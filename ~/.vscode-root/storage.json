@@ -10,6 +10,11 @@
             "label": "Ctrl+K Ctrl+O",
             "isNative": false
         },
+        "workbench.action.files.openFile": {
+            "id": "workbench.action.files.openFile",
+            "label": "Ctrl+O",
+            "isNative": true
+        },
         "workbench.action.reopenClosedEditor": {
             "id": "workbench.action.reopenClosedEditor",
             "label": "Ctrl+Shift+T",
@@ -30,8 +35,8 @@
             "label": "Ctrl+Shift+S",
             "isNative": true
         },
-        "workbench.action.openGlobalSettings": {
-            "id": "workbench.action.openGlobalSettings",
+        "workbench.action.openSettings": {
+            "id": "workbench.action.openSettings",
             "label": "Ctrl+,",
             "isNative": false
         },
@@ -57,7 +62,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -118,6 +123,11 @@
         "workbench.action.replaceInFiles": {
             "id": "workbench.action.replaceInFiles",
             "label": "Ctrl+Shift+H",
+            "isNative": true
+        },
+        "editor.emmet.action.expandAbbreviation": {
+            "id": "editor.emmet.action.expandAbbreviation",
+            "label": "Tab",
             "isNative": true
         },
         "editor.action.commentLine": {
@@ -190,6 +200,11 @@
             "label": "Shift+Alt+Left",
             "isNative": true
         },
+        "workbench.action.showCommands": {
+            "id": "workbench.action.showCommands",
+            "label": "Ctrl+Shift+P",
+            "isNative": true
+        },
         "workbench.view.explorer": {
             "id": "workbench.view.explorer",
             "label": "Ctrl+Shift+E",
@@ -235,11 +250,6 @@
             "label": "Ctrl+Shift+M",
             "isNative": true
         },
-        "workbench.action.showCommands": {
-            "id": "workbench.action.showCommands",
-            "label": "Ctrl+Shift+P",
-            "isNative": true
-        },
         "workbench.action.toggleFullScreen": {
             "id": "workbench.action.toggleFullScreen",
             "label": "F11",
@@ -250,14 +260,9 @@
             "label": "Ctrl+K Z",
             "isNative": false
         },
-        "workbench.action.splitEditor": {
-            "id": "workbench.action.splitEditor",
-            "label": "Ctrl+\\",
-            "isNative": false
-        },
         "workbench.action.toggleEditorGroupLayout": {
             "id": "workbench.action.toggleEditorGroupLayout",
-            "label": "Shift+Alt+1",
+            "label": "Shift+Alt+0",
             "isNative": true
         },
         "workbench.action.toggleSidebarVisibility": {
@@ -335,14 +340,34 @@
             "label": "Ctrl+3",
             "isNative": true
         },
-        "workbench.action.focusNextGroup": {
-            "id": "workbench.action.focusNextGroup",
+        "workbench.action.focusFourthEditorGroup": {
+            "id": "workbench.action.focusFourthEditorGroup",
+            "label": "Ctrl+4",
+            "isNative": true
+        },
+        "workbench.action.focusFifthEditorGroup": {
+            "id": "workbench.action.focusFifthEditorGroup",
+            "label": "Ctrl+5",
+            "isNative": true
+        },
+        "workbench.action.focusLeftGroup": {
+            "id": "workbench.action.focusLeftGroup",
+            "label": "Ctrl+K Ctrl+LeftArrow",
+            "isNative": false
+        },
+        "workbench.action.focusRightGroup": {
+            "id": "workbench.action.focusRightGroup",
             "label": "Ctrl+K Ctrl+RightArrow",
             "isNative": false
         },
-        "workbench.action.focusPreviousGroup": {
-            "id": "workbench.action.focusPreviousGroup",
-            "label": "Ctrl+K Ctrl+LeftArrow",
+        "workbench.action.focusAboveGroup": {
+            "id": "workbench.action.focusAboveGroup",
+            "label": "Ctrl+K Ctrl+UpArrow",
+            "isNative": false
+        },
+        "workbench.action.focusBelowGroup": {
+            "id": "workbench.action.focusBelowGroup",
+            "label": "Ctrl+K Ctrl+DownArrow",
             "isNative": false
         },
         "workbench.action.quickOpen": {
@@ -420,8 +445,8 @@
             "label": "F9",
             "isNative": true
         },
-        "editor.debug.action.toggleColumnBreakpoint": {
-            "id": "editor.debug.action.toggleColumnBreakpoint",
+        "editor.debug.action.toggleInlineBreakpoint": {
+            "id": "editor.debug.action.toggleInlineBreakpoint",
             "label": "Shift+F9",
             "isNative": true
         },
@@ -437,6 +462,9 @@
     "pickerWorkingDir": "/home/may/pro",
     "openedPathsList": {
         "workspaces": [
+            "/home/may/pro/mayblog",
+            "/home/may/pro/mayblog",
+            "/home/may/pro/mayblog",
             "/home/may/pro/mayblog",
             "/home/may/pro/webRMS",
             "/home/may"

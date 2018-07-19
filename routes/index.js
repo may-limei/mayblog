@@ -37,4 +37,9 @@ router.get('/learning-softs', function(req, res, next) {
 router.get('/svg', function(req, res, next) {
   res.render('svg.html', { title: 'svg' });
 });
+
+router.get('/message-board', function(req, res, next) {
+  res.render('message-board.html', { title: '留言板' });
+});
+
 module.exports = router;

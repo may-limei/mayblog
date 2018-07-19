@@ -43,7 +43,7 @@ var siderbarStr;
 								+"<li><a href='svg' id='li-svg'>svg</a></li>"
 								+"</ul>"
 							+"</li>"
-							+"<li><a href='#' id='li-words'>留言板</a></li>"
+							+"<li><a href='message-board' id='li-message'>留言板</a></li>"
 						+"</ul>"
 					+"</nav>"
 				+"<!-- Section -->"

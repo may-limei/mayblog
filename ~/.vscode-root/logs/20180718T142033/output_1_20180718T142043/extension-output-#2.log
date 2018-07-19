@@ -1,0 +1,4 @@
+[Info  - 14:22:22] Using tsserver from: /home/may/soft/code/VSCode-linux-x64/resources/app/extensions/node_modules/typescript/lib
+[Info  - 14:22:22] Forking TSServer
+PATH: /usr/local/epics/base-3.16.1/bin/linux-x86_64:/usr/local/epics/base-3.16.1/bin/linux-x86_64:/usr/local/epics/base-3.16.1/bin/linux-x86_64:/home/may/soft/code/VSCode-linux-x64/bin:/home/may/soft/node/node-v8.9.4-linux-x64/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/may/.local/bin:/home/may/bin 
+[Info  - 14:22:24] Started TSServer
